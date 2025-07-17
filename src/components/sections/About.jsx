@@ -28,6 +28,9 @@ export const About = () => {
             <p className="text-gray-300 mb-6">
               I'm a software engineer with 10+ years of experience in web development, specializing in scalable, full-stack applications. I started with PHP and have expanded my skills to JavaScript—using Node.js and React.js to build clean, reliable solutions that deliver great user experiences.
             </p>
+            <p className="text-gray-300 mb-6">
+              In all honesty, some skiils below are probably outdated and I haven't practiced for so long, but I'm very open to learn new things and grow together with the company that I will be in.
+            </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                 <h3 className="text-xl font-bold mb-4">Languages</h3>
