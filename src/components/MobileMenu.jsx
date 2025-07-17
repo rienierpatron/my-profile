@@ -1,5 +1,3 @@
-import { useEffect } from "react";
- 
 export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
   return (
     <div
@@ -58,6 +56,20 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
         `}
       >
         Work
+      </a>
+      <a
+        href="https://www.dropbox.com/scl/fi/fhz41sn9khl5eacqzw04i/Rienier-Santos-Patron.pdf?rlkey=yophi3ybtutiurh9jqfnhb8de&st=ihtas7ps&dl=0"
+        target="_blank"
+        onClick={() => setMenuOpen(false)}
+        className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 hover:text-blue-500 hover:scale-110
+          ${
+            menuOpen
+              ? "opacity-100 translate-y-0"
+              : "opacity-0 translate-y-5"
+          }  
+        `}
+      >
+        Resume
       </a>
       <a
         href="#contact"

@@ -40,6 +40,14 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               Work{" "}
             </a>
             <a
+              href="https://www.dropbox.com/scl/fi/fhz41sn9khl5eacqzw04i/Rienier-Santos-Patron.pdf?rlkey=yophi3ybtutiurh9jqfnhb8de&st=ihtas7ps&dl=0"
+              target="_blank"
+              className="text-gray-300 hover:text-white transition-colors"
+            >
+              {" "}
+              Resume{" "}
+            </a>
+            <a
               href="#contact"
               className="text-gray-300 hover:text-white transition-colors"
             >
